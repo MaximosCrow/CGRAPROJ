@@ -234,20 +234,20 @@ class MyScene extends CGFscene {
 
 
 
-//        this.pushMatrix();
-  //        this.scale(this.scaleFactor,this.scaleFactor,this.scaleFactor);
-    //      this.translate(0,0,0);
-      //    this.setDefaultAppearance();
-        //  this.vehicle.display();
-        //this.popMatrix();
+        this.pushMatrix();
+          this.scale(this.scaleFactor,this.scaleFactor,this.scaleFactor);
+          //this.translate(0,0,0);
+          this.setDefaultAppearance();
+          this.vehicle.display();
+        this.popMatrix();
 
           //this.flap.display();
 
         this.pushMatrix();
-          this.vehicle.display();
-        //  for (var c =0; c< 5 ; c++){
-        //    this.supplies[c].display();
-      //    }
+          //this.vehicle.display();
+          for (var c =0; c< 5 ; c++){
+            this.supplies[c].display();
+        }
          this.terrain.display();
            this.scale(50, 50, 50);
           this.unitCube.display();
