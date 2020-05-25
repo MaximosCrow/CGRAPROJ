@@ -235,7 +235,7 @@ class MyScene extends CGFscene {
 
 
 //        this.pushMatrix();
-  //        this.scale(this.scaleFactor,this.scaleFactor,this.scaleFactor);
+  //       
     //      this.translate(0,0,0);
       //    this.setDefaultAppearance();
         //  this.vehicle.display();
@@ -244,6 +244,7 @@ class MyScene extends CGFscene {
           //this.flap.display();
 
         this.pushMatrix();
+         this.scale(this.scaleFactor,this.scaleFactor,this.scaleFactor);
           this.vehicle.display();
         //  for (var c =0; c< 5 ; c++){
         //    this.supplies[c].display();
